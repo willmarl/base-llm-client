@@ -1,0 +1,41 @@
+# Core LangChain
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+
+# Provider packages (modular split-out)
+langchain-openai>=0.1
+langchain-anthropic>=0.1
+langchain-ollama>=0.1
+
+# Vector store
+chromadb>=0.5
+
+# File loaders & parsing
+pypdf>=4.0
+markdown>=3.5
+unstructured[all]>=0.15
+pandas>=2.0
+openpyxl>=3.1
+xlrd>=2.0
+python-docx>=1.1
+python-pptx>=0.6
+jq>=1.6
+pdfminer.six>=20231228
+pi_heif
+unstructured_inference
+unstructured_pytesseract
+pdf2image
+
+# Multimodal embeddings
+torch>=2.1
+torchvision>=0.16
+pillow>=10.0
+git+https://github.com/openai/CLIP.git
+
+# Replicate (cloud model hosting)
+replicate>=0.22
+pybase64>=1.3
+
+# Utilities
+python-dotenv>=1.0
